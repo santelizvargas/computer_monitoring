@@ -1,12 +1,18 @@
 @import "components/navbar.css";
 @import "components/footer.css";
 @import "home.css";
+@import "computers.css";
 
 /* google font imports*/
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
 /* General style */
+
+:root {
+    --golden-color: #b68d2c;
+    --text-white: #fff;
+}
 
 * {
     margin: 0;
@@ -20,6 +26,7 @@ body {
     background-size: cover;
 }
 
-.text-white {
-    color: #fff;
+a {
+    text-decoration: none;
+    color: var(--text-white);
 }

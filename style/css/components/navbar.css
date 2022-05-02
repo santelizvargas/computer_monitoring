@@ -7,7 +7,7 @@ nav {
     padding: 0px 5%;
     height: 80px;
     width: 100%;
-    border-bottom: 1px solid #b68d2c;
+    border-bottom: 1px solid var(--golden-color);
 }
 
 nav ul {
